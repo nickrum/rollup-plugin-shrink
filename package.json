@@ -1,0 +1,34 @@
+{
+  "name": "rollup-plugin-shrink",
+  "version": "0.1.0",
+  "description": "A Rollup plugin to shrink Ecmascript",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Nicola Krumschmidt",
+  "license": "MIT",
+  "keywords": [
+    "rollup",
+    "plugin",
+    "shrink",
+    "minify",
+    "ecmascript"
+  ],
+  "peerDependencies": {
+    "rollup": "^2.56.0"
+  },
+  "dependencies": {
+    "@swc/core": "^1.2.83"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.4",
+    "prettier": "^2.3.2",
+    "rollup": "^2.56.3",
+    "rollup-plugin-dts": "^3.0.2",
+    "rollup-plugin-transpile": "^0.1.0",
+    "typescript": "^4.4.2"
+  }
+}
